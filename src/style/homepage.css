@@ -1,0 +1,116 @@
+.exploreBtn {
+    background-color: #C8009B;
+    border: none;
+
+    /* padding: 10px 32px; */
+    border-radius: 8px;
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    height: 87vh;
+    justify-content: space-between;
+}
+
+
+.heroLeft {
+    width: 70%;
+}
+
+.heroLeft h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 78px;
+
+}
+
+.heroLeft p {
+    font-size: 18px;
+}
+
+.heroBtn {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.heroBtn .watchBtn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #D200A3;
+    padding: 0 1.3rem;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.heroRight {
+    width: 340px;
+    height: 508px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.nft-card-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.exploreSection {
+    margin: 8rem 0;
+}
+
+
+.sectionInfo {
+    text-align: center;
+}
+
+.title{
+    color: #6EFFF6;
+    font-size: 32px;
+    font-weight: 800;
+}
+.details{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.joinInfo {
+    height: 300px;
+    width: 70%;
+    background-color: grey;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.joinInfo p {
+    width: 80%;
+    text-align: center;
+}
+
+.joinInfoBtn {
+    background-color: #C8009B;
+    border: none;
+    border-radius: 8px;
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+}

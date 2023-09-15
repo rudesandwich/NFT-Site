@@ -1,0 +1,15 @@
+
+.nftInfoCard {
+    width: 36%;
+    height: 210px;
+    background-color: grey;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.nftInfoCard p {
+    background-color: ;
+}

@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: grey; */
+}
+.logo img {
+    width: 110px;
+    height: 51px;
+}
+
+
+.navLinks {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.ulList {
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.ulList .navLinkItem {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 8%;
+    color: #fff;
+}
+
