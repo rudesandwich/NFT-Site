@@ -10,10 +10,13 @@
 }
 
 body {
-  padding: 2rem 6rem;
+
   background-color: #00001C;
   color: #fff;
 }
 
 
 
+button {
+  cursor: pointer;
+}

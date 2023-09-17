@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from '../assets/images/logo.png';
-import { ExploreBtn } from "./ExploreBtn";
+import { TextBtn } from "./TextBtn";
 import '../style/navbar.css';
 
 
@@ -8,7 +8,8 @@ function Navbar () {
     return (
         <nav>
             <div className="logo">
-                <img src={Logo} alt="Logo of the NFT website" className="logoImg"/>
+            <Link to='/' ><img src={Logo} alt="Logo of the NFT website" className="logoImg"/></Link>
+                
             </div>
             <div className="navLinks">
                 <div className="links">
@@ -21,7 +22,7 @@ function Navbar () {
                         
                     </ul>
                 </div>
-                <ExploreBtn/>
+                <TextBtn text="Explore"/>
             </div>
         </nav>
     )

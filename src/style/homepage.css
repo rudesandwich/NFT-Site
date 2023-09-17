@@ -1,4 +1,4 @@
-.exploreBtn {
+.textBtn {
     background-color: #C8009B;
     border: none;
 
@@ -16,6 +16,7 @@
     align-items: center;
     height: 87vh;
     justify-content: space-between;
+      padding: 0 6rem;
 }
 
 
@@ -64,11 +65,13 @@ img {
 .nft-card-information {
     display: flex;
     justify-content: space-between;
+    padding: 0 6rem;
 }
 
 
 .exploreSection {
     margin: 8rem 0;
+    padding: 0 6rem;
 }
 
 
@@ -77,6 +80,7 @@ img {
 }
 
 .title{
+    text-align: center;
     color: #6EFFF6;
     font-size: 32px;
     font-weight: 800;
@@ -84,6 +88,10 @@ img {
 .details{
     font-size: 48px;
     font-weight: 600;
+}
+
+.communitySection {
+    padding: 7rem 6rem;
 }
 
 .joinInfo {
@@ -114,3 +122,37 @@ img {
     font-size: 18px;
     color: #fff;
 }
+
+
+
+.collectionSection {
+    padding: 0 6rem;
+}
+
+.waterQueen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discoverSection {
+    padding: 5rem 6rem;
+    background-color: #341CB0;
+}
+
+.discoverSecDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.discoverText {
+    width: 70%;
+    margin-left: 1rem;
+    margin-bottom:2rem;
+    font-size: 24px;
+}
+
+
+
+
