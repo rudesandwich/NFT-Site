@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Logo from '../assets/images/logo.png';
-import { TextBtn } from "./TextBtn";
-import '../style/navbar.css';
+import Logo from '../../assets/images/logo.png';
+import { TextBtn } from "../TextBtn";
+import '../../style/navbar.css';
 
 
 function Navbar () {

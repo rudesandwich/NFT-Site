@@ -1,7 +1,7 @@
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import '../style/footer.css'
+import '../../style/footer.css'
 import { Link } from 'react-router-dom';
 
 function Footer () {

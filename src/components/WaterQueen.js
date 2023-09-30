@@ -1,12 +1,12 @@
 import '../style/waterQueen.css'
-import WaterCatInfo from './WaterCategoryInfo';
+import WaterQueenInfo from './WaterQueenInfo';
 
 
 function WaterQueen (props) {
     return (
         <div className='WaterQueenImage'>
             <img className='queenimg' src={props.img} alt=''/>
-            <WaterCatInfo/>
+            <WaterQueenInfo/>
         </div>
     )
 }
