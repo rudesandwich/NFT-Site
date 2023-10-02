@@ -1,0 +1,61 @@
+.discover {
+  margin-top: 10rem;
+  /* padding: 5rem 6rem; */
+  width: 80%;
+  margin: auto;
+  background-color: #341cb0;
+}
+.discoverSection {
+  /* margin-top: 10rem; */
+  /* padding: 5rem 6rem; */
+  /* background-color: #341cb0; */
+}
+
+.discoverSecDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.discoverText {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.discoverLeft {
+  width: 50%;
+}
+
+.discoverRight {
+  width: 50%;
+}
+
+@media only screen and (max-width: 780px) {
+  .discoverSecDetails {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .discoverLeft {
+    width: 100%;
+    text-align: center;
+  }
+
+  .discoverRight {
+    order: -1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .discoverText {
+    margin-left: 0;
+    
+  }
+
+  .discoverImage {
+    width: 100%;
+    height: 100%
+  }
+}

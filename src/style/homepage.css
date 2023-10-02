@@ -1,3 +1,8 @@
+
+
+
+
+
 .textBtn {
     background-color: #C8009B;
     border: none;
@@ -71,7 +76,7 @@ img {
 
 
 .exploreSection {
-    margin: 8rem 0;
+    margin: 8rem 0 4rem;
     padding: 0 6rem;
 }
 
@@ -114,6 +119,7 @@ img {
     width: 265px;
     height: 300px;
     text-align: right;
+    margin-right: 1rem;
 }
 
 .exploreTextDetailsBtns {
@@ -121,6 +127,7 @@ img {
     align-items: center;
     justify-content: end;
     gap: 1rem;
+
 }
 
 .discoverBtn {
@@ -133,7 +140,6 @@ img {
     color: #fff;
     border-radius: 8px;
 }
-
 
 
 
@@ -205,25 +211,53 @@ img {
     justify-content: space-between;
 }
 
-.discoverSection {
-    padding: 5rem 6rem;
-    background-color: #341CB0;
+
+
+
+
+
+
+
+.homepage {
+    position: relative;
 }
 
-.discoverSecDetails {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0;
+.ellipse6 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 1000px;
+    height: 2000px;
+}
+.ellipse7 {
+    position: absolute;
+    top: 1700px;
+    width: 1000px;
+    height: 2000px;
+}
+.ellipse8 {
+    position: absolute;
+    top: 2900px;
+    right: 0;
+    width: 1000px;
+    height: 2000px;
+}
+.ellipse9 {
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    width: 1000px;
+    height: 1000px;
 }
 
-.discoverText {
-    width: 70%;
-    margin-left: 1rem;
-    margin-bottom:2rem;
-    font-size: 24px;
+
+@media only screen and (max-width: 480px){
+    .title{
+        font-size: 19px;
+    }
+    .details{
+        font-size: 25px;
+    }
+
+    
 }
-
-
-
-

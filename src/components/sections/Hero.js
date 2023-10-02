@@ -1,10 +1,11 @@
 import SkullOnCap from "../../assets/images/skull-on-cap1.png";
 import { TextBtn } from "../TextBtn";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
+import "aos/dist/aos.css";
 
 function Hero () {
     return (
-        <div className="hero">
+        <div className="hero" data-aos= "fade-up">
                 <div className="heroLeft">
                     <h1>Unlock the Future of Digital Ownership with NFTs</h1>
                     <p>Securely Buy, Sell, and Collect Unique Digital Assets</p>

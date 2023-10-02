@@ -1,9 +1,9 @@
-import storm1 from "../../../assets/images/storm1.png"
-import storm2 from "../../../assets/images/storm2.png";
-import storm3 from "../../../assets/images/storm3.png";
-import storm4 from "../../../assets/images/storm4.png";
-import storm5 from "../../../assets/images/storm5.png";
-import storm6 from "../../../assets/images/storm6.png";
+import storm1 from "../../assets/images/storm-images/storm1.png"
+import storm2 from "../../assets/images/storm-images/storm2.png";
+import storm3 from "../../assets/images/storm-images/storm3.png";
+import storm4 from "../../assets/images/storm-images/storm4.png";
+import storm5 from "../../assets/images/storm-images/storm5.png";
+import storm6 from "../../assets/images/storm-images/storm6.png";
 
 
 const stormInfo = [
@@ -13,7 +13,7 @@ const stormInfo = [
         title: "City Monkey",
         collectionId: "#3132",
         collectionName: "Storm Collection", 
-        price: "0.05"
+        price: "0.05",
     },
     {
         key: 2,
@@ -37,7 +37,7 @@ const stormInfo = [
         title: "City Monkey",
         collectionId: "#3132",
         collectionName: "Storm Collection", 
-        price: "0.09"
+        price: "0.09",
     },
     {
         key: 5,

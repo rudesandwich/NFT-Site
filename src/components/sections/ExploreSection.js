@@ -6,12 +6,12 @@ import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 function ExploreSection () {
     return (
         <div className="exploreSection">
-        <div className="sectionInfo">
-            <p className="title">Explore</p>
+        <div className="sectionInfo" data-aos= "fade-up">
+            <p className="title" >Explore</p>
             <p className="details">Discover and Explore NFTs</p>
         </div>
         <div className="exploreDetails">
-            <div className="exploreImages">
+            <div className="exploreImages" data-aos= "fade-right">
                 <img
                     src={Maskgroup1}
                     className="img1"
@@ -28,7 +28,7 @@ function ExploreSection () {
                     alt="a cyber skull"
                 />
             </div>
-            <div className="exploreTextDetails">
+            <div className="exploreTextDetails" data-aos= "fade-left">
                 <p>
                     We offer a wide range of NFTs for you to discover and invest in,
                     and our platform makes it easy for you to buy, sell, and trade

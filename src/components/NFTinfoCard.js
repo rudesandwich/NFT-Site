@@ -1,11 +1,13 @@
+import "../style/nftinfocard.css";
+import "aos/dist/aos.css";
 
-import '../style/nftinfocard.css';
-function NFTInfoCard (props) {
-    return (
-        <div className="nftInfoCard">
-            <p>{props.text}</p>
-        </div>
-    )
+function NFTInfoCard(props) {
+
+  return (
+    <div className="nftInfoCard" data-aos="fade-up">
+      <p>{props.text}</p>
+    </div>
+  );
 }
 
 export default NFTInfoCard;

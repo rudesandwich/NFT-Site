@@ -1,9 +1,9 @@
 import { stormInfo, stormInfo1 } from "./stormInfo";
 import StormCard from "./StormCard";
-import storm1 from "../../../assets/images/storm1.png"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "../../style/storm.css"
 
 
 function Storm() {
@@ -47,8 +47,8 @@ function Storm() {
   return (
     <div className="Storm">
     <p className="title">Storm</p>
-      <div className="stormSection">
-        <div className="topStorm">
+      <div className="stormSection" >
+        <div className="topStorm" data-aos= "fade-right">
         <Slider {...settings}>
         {stormInfo.map((stormInfo) => (
             <StormCard
@@ -63,7 +63,7 @@ function Storm() {
         </Slider>
           
         </div>
-        <div className="bottomStorm">
+        <div className="bottomStorm" data-aos= "fade-right">
         <Slider {...settings}>
         {stormInfo1.map((stormInfo1) => (
             <StormCard
