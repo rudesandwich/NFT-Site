@@ -1,5 +1,5 @@
-import Eth from "../../assets/images/EthereumLogo.png";
-import "../../style/stormcard.css";
+import Eth from "../../../../assets/images/EthereumLogo.png";
+import "./stormcard.css";
 
 function StormCard(props) {
   return (

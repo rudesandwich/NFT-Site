@@ -1,4 +1,5 @@
-import { TextBtn } from "../TextBtn";
+import { TextBtn } from "../../TextBtn";
+import "./community.css"
 
 function Community() {
   return (

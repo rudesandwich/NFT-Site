@@ -1,8 +1,5 @@
 
 
-
-
-
 .textBtn {
     background-color: #C8009B;
     border: none;
@@ -13,145 +10,6 @@
     height: 50px;
     font-size: 18px;
     color: #fff;
-}
-
-.hero {
-    /* background-color: green; */
-    display: flex;
-    align-items: center;
-    height: 87vh;
-    justify-content: space-between;
-      padding: 0 6rem;
-}
-
-
-.heroLeft {
-    width: 70%;
-}
-
-.heroLeft h1 {
-    font-size: 52px;
-    font-weight: 600;
-    line-height: 78px;
-
-}
-
-.heroLeft p {
-    font-size: 18px;
-}
-
-.heroBtn {
-    display: flex;
-    gap: 3rem;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-.heroBtn .watchBtn {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border: 1px solid #D200A3;
-    padding: 0 1.3rem;
-    height: 50px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.heroRight {
-    width: 340px;
-    height: 508px;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.nft-card-information {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 6rem;
-}
-
-
-.exploreSection {
-    margin: 8rem 0 4rem;
-    padding: 0 6rem;
-}
-
-.exploreDetails {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.exploreImages {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-
-.img1 {
-    width: 540.75px;
-    height: 531.87px;
-  position: relative;
-  top: 120px;
-  left: 150px;
-}
-
-.img2 {
-    width: 380px;
-    height: 380px;
-    z-index: 999;
-}
-.img3 {
-    width: 540.75px;
-    height: 531.87px;
-    position: relative;
-    bottom: 120px;
-    left: 170px;
-  
-}
-
-.exploreTextDetails {
-    width: 265px;
-    height: 300px;
-    text-align: right;
-    margin-right: 1rem;
-}
-
-.exploreTextDetailsBtns {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 1rem;
-
-}
-
-.discoverBtn {
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #D200A3;
-    width: 110px;
-    height: 50px;
-    font-size: 18px;
-    color: #fff;
-    border-radius: 8px;
-}
-
-
-
-
-
-
-.communitySection {
-    padding: 0 6rem;
-}
-
-.sectionInfo {
-    text-align: center;
 }
 
 .title{
@@ -165,56 +23,16 @@ img {
     font-weight: 600;
 }
 
-
-
-.joinInfo {
-    height: 320px;
-    width: 65%;
-    background-color: grey;
-    margin: 10rem auto;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-
+img {
+    width: 100%;
+    height: 100%;
 }
 
-.joinInfo p {
-    width: 70%;
-    text-align: center;
-}
-
-.joinInfoBtn {
-    background-color: #C8009B;
-    border: none;
-    border-radius: 8px;
-    width: 110px;
-    height: 50px;
-    font-size: 18px;
-    color: #fff;
-}
-
-
-
-.collectionSection {
-    padding: 0 6rem;
-}
-
-.waterTitle {
-    margin: 6rem 0 2rem;
-}
-
-.waterQueen {
+.nft-card-information {
     display: flex;
     justify-content: space-between;
+    padding: 0 6rem;
 }
-
-
-
-
-
 
 
 

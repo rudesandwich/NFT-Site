@@ -6,10 +6,10 @@ function Discover () {
     return (
         <div className="discover">
             <div className="discoverSection" >
-                {/* <div className="sectionInfo" data-aos= "fade-up">
+                <div className="sectionInfo" data-aos= "fade-up">
                     <p className="title">Discover</p>
                     <p className="details">Own a piece of the digital world</p>
-                </div> */}
+                </div>
                 <div className="discoverSecDetails">
                     <div className="discoverLeft" data-aos= "fade-up">
                         <p className="discoverText">

@@ -19,7 +19,7 @@ nav {
     align-items: center;
 }
 
-.mobileNav {
+.mobileNav, .mobileNaExit {
     display: none;
 }
 .ulList {

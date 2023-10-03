@@ -1,5 +1,5 @@
-import '../style/waterQueenInfo.css'
-import EthLogo from '../assets/images/EthereumLogo.png'
+import './waterQueenInfo.css'
+import EthLogo from '../../../../assets/images/EthereumLogo.png'
 
 function WaterQueenInfo (props) {
     return (

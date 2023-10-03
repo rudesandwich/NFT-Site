@@ -1,7 +1,8 @@
-import Maskgroup1 from "../../assets/images/Maskgroup1.png";
-import Maskgroup2 from "../../assets/images/Maskgroup2.png";
-import Maskgroup3 from "../../assets/images/Maskgroup3.png";
+import Maskgroup1 from "../../../assets/images/Maskgroup1.png";
+import Maskgroup2 from "../../../assets/images/Maskgroup2.png";
+import Maskgroup3 from "../../../assets/images/Maskgroup3.png";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
+import "./explore.css"
 
 function ExploreSection () {
     return (

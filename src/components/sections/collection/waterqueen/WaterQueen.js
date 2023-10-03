@@ -1,4 +1,4 @@
-import '../style/waterQueen.css'
+import './waterQueen.css'
 import WaterQueenInfo from './WaterQueenInfo';
 
 

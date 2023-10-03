@@ -9,10 +9,10 @@ import {FaDiscord} from "react-icons/fa";
 function Footer () {
     return (
         <div className="footer" >
-                {/* <div className="sectionInfo" data-aos= "fade-up">
+                <div className="sectionInfo" data-aos= "fade-up">
                     <p className="title">Contact us</p>
                     <p className="details">We want to hear from you</p>
-                </div> */}
+                </div>
                <div className="footerDetails" data-aos= "fade-up">
                     <div className="footerLeft">
                         <div className="social">

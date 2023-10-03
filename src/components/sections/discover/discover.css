@@ -1,21 +1,16 @@
 .discover {
-  margin-top: 10rem;
-  /* padding: 5rem 6rem; */
-  width: 80%;
-  margin: auto;
   background-color: #341cb0;
+  padding: 4rem;
 }
 .discoverSection {
-  /* margin-top: 10rem; */
-  /* padding: 5rem 6rem; */
-  /* background-color: #341cb0; */
+  width: 90%;
+  margin: auto;
 }
 
 .discoverSecDetails {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
 }
 
 .discoverText {
@@ -30,6 +25,17 @@
 
 .discoverRight {
   width: 50%;
+}
+
+.discoverBtn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #D200A3;
+  width: 110px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
 }
 
 @media only screen and (max-width: 780px) {

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo.png";
-import { TextBtn } from "../TextBtn";
-import "../../style/navbar.css";
+import Logo from "../../../assets/images/logo.png";
+import {TextBtn} from "../../TextBtn"
+import "./navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
 import { useRef } from "react";
 

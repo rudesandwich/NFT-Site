@@ -1,9 +1,9 @@
-import storm1 from "../../assets/images/storm-images/storm1.png"
-import storm2 from "../../assets/images/storm-images/storm2.png";
-import storm3 from "../../assets/images/storm-images/storm3.png";
-import storm4 from "../../assets/images/storm-images/storm4.png";
-import storm5 from "../../assets/images/storm-images/storm5.png";
-import storm6 from "../../assets/images/storm-images/storm6.png";
+import storm1 from "../../../../assets/images/storm-images/storm1.png"
+import storm2 from "../../../../assets/images/storm-images/storm2.png";
+import storm3 from "../../../../assets/images/storm-images/storm3.png";
+import storm4 from "../../../../assets/images/storm-images/storm4.png";
+import storm5 from "../../../../assets/images/storm-images/storm5.png";
+import storm6 from "../../../../assets/images/storm-images/storm6.png";
 
 
 const stormInfo = [

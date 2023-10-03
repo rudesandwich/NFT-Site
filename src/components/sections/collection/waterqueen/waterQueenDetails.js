@@ -1,6 +1,6 @@
-import Queen1 from '../assets/images/water-queen-1.png';
-import Queen2 from '../assets/images/water-queen-2.png';
-import Queen3 from '../assets/images/water-queen-3.png';
+import Queen1 from '../../../../assets/images/water-queen-1.png';
+import Queen2 from '../../../../assets/images/water-queen-2.png';
+import Queen3 from '../../../../assets/images/water-queen-3.png';
 
 const waterQueenImg = [
     {
