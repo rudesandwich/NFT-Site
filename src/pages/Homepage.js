@@ -21,7 +21,7 @@ import ellipse9 from "../assets/images/ellipse/Ellipse9.png"
 
 function Homepage() {
     useEffect(() => {
-        AOS.init({duration: 2000});
+        AOS.init({duration: 1000});
     },[])
     
     return (
