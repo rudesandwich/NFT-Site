@@ -1,5 +1,5 @@
 steps:
 - name: 'gcloud components install cloud-storage'
-- name: 'gsutil cp -r src/public gs://my-bucket'
-- name: 'gsutil setpublic gs://my-bucket'
+- name: 'gsutil cp -r src/public gs://nftwebsite'
+- name: 'gsutil setpublic gs://nftwebsite'
 timeout: '1600s'  # Adjust as needed
