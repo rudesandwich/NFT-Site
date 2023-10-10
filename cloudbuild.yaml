@@ -1,15 +1,5 @@
 steps:
-  # Build and deploy the website to Google Cloud Storage
-  - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['rsync', '-r', '-c', '-d', 'public/', 'gs://nftwebsite']
-
-  # Optional: Set appropriate ACLs for files in the bucket (public read)
-  - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
-
-# Optional: This section can be used for additional steps such as invalidating CDN caches, etc.
-# - name: 'gcr.io/cloud-builders/gcloud'
-#   args: ['app', 'deploy', 'app.yaml']
-
-# Timeout for the entire build process
+- name: 'gcloud components install cloud-storage'
+- name: 'gsutil cp -r src/public gs://my-bucket'
+- name: 'gsutil setpublic gs://my-bucket'
 timeout: '1600s'  # Adjust as needed
