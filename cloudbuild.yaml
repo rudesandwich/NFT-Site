@@ -1,9 +1,4 @@
-steps:
-  # Build and deploy the website to Google Cloud Storage
-  - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['rsync', '-r', '-c', '-d', 'public/', 'gs://nftwebsite']
 
- 
     #this next command is supposed to implement the cloudbuild if nothing else works
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['cp',  '-r', 'build/*', 'gs://nftwebsite']
