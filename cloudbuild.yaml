@@ -6,6 +6,18 @@ steps:
   # Optional: Set appropriate ACLs for files in the bucket (public read)
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
+    #this next command is supposed to implement the cloudbuild if nothing else works
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['cp',  '-r', 'build/*', 'gs://nftwebsite']
+
+ #these next set of codes are meant to install the npm build
+  - name: 'node:16'
+    entrypoint: 'npm'
+    args: ['install']
+
+  - name: 'node:16'
+    entrypoint: 'npm'
+    args: ['run', 'build']
 
 # Optional: This section can be used for additional steps such as invalidating CDN caches, etc.
 # - name: 'gcr.io/cloud-builders/gcloud'
