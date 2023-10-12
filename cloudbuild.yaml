@@ -3,9 +3,7 @@ steps:
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['rsync', '-r', '-c', '-d', 'public/', 'gs://nftwebsite']
 
-  # Optional: Set appropriate ACLs for files in the bucket (public read)
-  - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
+ 
     #this next command is supposed to implement the cloudbuild if nothing else works
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['cp',  '-r', 'build/*', 'gs://nftwebsite']
