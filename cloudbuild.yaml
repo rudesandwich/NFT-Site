@@ -11,7 +11,7 @@ steps:
 
   # Deploy the built assets to Google Cloud Storage
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['rsync', '-r', '-c', '-d', 'public/', 'gs://nftwebsite']
+    args: ['rsync', '-r', '-c', '-d', 'build/', 'gs://nftwebsite']
 
 # Optional: Set appropriate ACLs for files in the bucket (public read)
 # - name: 'gcr.io/cloud-builders/gsutil'
