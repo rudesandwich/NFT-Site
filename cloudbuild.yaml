@@ -14,7 +14,7 @@ steps:
     args: ['rsync', '-r', '-c', '-d', 'build/', 'gs://nftwebsite']
 
 # Optional: Set appropriate ACLs for files in the bucket (public read)
-# - name: 'gcr.io/cloud-builders/gsutil'
-#   args: ['acl', 'ch', '-r', 'public-read', 'gs://your-bucket-name']
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
 
 timeout: '1600s'  # Adjust as needed
