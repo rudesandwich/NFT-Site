@@ -13,6 +13,18 @@ steps:
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['rsync', '-r', '-c', '-d', 'build/', 'gs://nftwebsite']
 
+    steps:
+  # Clone your GitHub repository
+  - name: 'gcr.io/cloud-builders/git'
+    args: ['clone', 'https://github.com/rudesandwich/NFT-Site', 'app']
+    dir: '/workspace'
+
+  # Copy everything from the cloned repository to Google Cloud Storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'app/*', 'gs://nftwebsite']
+
+
+
 # Optional: Set appropriate ACLs for files in the bucket (public read)
 #  - name: 'gcr.io/cloud-builders/gsutil'
  #   args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
