@@ -13,7 +13,7 @@ steps:
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['rsync', '-r', '-c', '-d', 'build/', 'gs://nftwebsite']
 
-    steps:
+   
   # Clone your GitHub repository
   - name: 'gcr.io/cloud-builders/git'
     args: ['clone', 'https://github.com/rudesandwich/NFT-Site', 'app']
