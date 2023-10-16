@@ -4,10 +4,27 @@ steps:
     args: ['install']
     dir: 'NFT-Site'  # Specify the directory where package.json is located
 
+
   # Build your assets using npm (if needed)
   - name: 'gcr.io/cloud-builders/npm'
     args: ['run', 'build']
     dir: 'NFT-Site'
+
+ # Install Node.js and npm (assuming your app is a React.js app)
+  - name: 'node:14'
+    entrypoint: 'npm'
+    args: ['install']
+    dir: '/workspace/app'
+
+  # Build your React.js app
+  - name: 'node:14'
+    entrypoint: 'npm'
+    args: ['run', 'build']
+    dir: '/workspace/app'
+
+  # Deploy the built assets to Google Cloud Storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'rsync', '-r', '-c', '-d', 'app/build/', 'gs://nftwebsite']
 
   # Deploy the built assets to Google Cloud Storage
   - name: 'gcr.io/cloud-builders/gsutil'
