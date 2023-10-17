@@ -1,0 +1,34 @@
+steps:
+  # Install npm dependencies (if needed)
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['install']
+    dir: 'NFT-Site'  # Specify the directory where package.json is located
+
+
+  # Build your assets using npm (if needed)
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['run', 'build']
+    dir: 'NFT-Site'
+
+
+  # Deploy the built assets to Google Cloud Storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['rsync', '-r', '-c', '-d', 'build/', 'gs://nftwebsite']
+
+   
+  # Clone your GitHub repository
+  - name: 'gcr.io/cloud-builders/git'
+    args: ['clone', 'https://github.com/rudesandwich/NFT-Site', 'app']
+    dir: '/workspace'
+
+  # Copy everything from the cloned repository to Google Cloud Storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'app/*', 'gs://nftwebsite']
+
+
+
+# Optional: Set appropriate ACLs for files in the bucket (public read)
+#  - name: 'gcr.io/cloud-builders/gsutil'
+ #   args: ['acl', 'ch', '-r', 'public-read', 'gs://nftwebsite']
+
+timeout: '1600s'  # Adjust as needed
