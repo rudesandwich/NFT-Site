@@ -1,5 +1,5 @@
 runtime: nodejs14
-instance_class: F2
+entrypoint: npx serve -s build
 
 handlers:
   - url: /static
@@ -9,3 +9,4 @@ handlers:
     upload: build/(.*\.(js|css|json|ico|jpg|png|jpeg|gif|webp|html))$
   - url: .*
     script: auto
+
